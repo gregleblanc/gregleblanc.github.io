@@ -99,6 +99,24 @@ background:#e74c3c;
 	top: 22rem;
 }
 
+.home-section-404{
+margin-top: -1rem;
+background:#e74c3c;
+}
+
+.home-section-404 h1{
+	position: absolute;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 10rem;
+	color: #fff;
+	text-align: center;
+	margin-left: 27%;
+	padding: 1rem;
+	width:40%;
+	top: 10rem;
+
+}
+
 
 
 /* HOME ----------------------------------------------> */
