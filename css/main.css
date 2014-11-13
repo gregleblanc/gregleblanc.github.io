@@ -104,11 +104,47 @@ background:#e74c3c;
 /* HOME ----------------------------------------------> */
 
 /* WORK ----------------------------------------------> */
+.work-section h3{
+	position: relative;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 3rem;
+	color: #2c3e50;
+	text-align: left;
+	margin-left: 16.5%;
+	padding: 1rem;
+	margin-bottom: -3rem;
+
+
+}
+
 
 .work-section{
 	margin-top: -1rem;
 background:#ecf0f1;
+padding: 3rem;
+
 }
+
+.work-section ul{
+	position: relative;
+	list-style-type: none;
+	margin-left: 14%;
+	margin-right:10%;
+	top:1rem;
+	padding-bottom:5rem;
+}
+
+.work-section li{
+	display: inline;
+
+}
+
+.work-section img{
+	width: 30%;
+
+}
+
+
 /* WORK ----------------------------------------------> */
 
 /* CONTACT ----------------------------------------------> */
