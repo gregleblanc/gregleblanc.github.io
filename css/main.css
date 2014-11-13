@@ -10,7 +10,7 @@ nav{
 	top:-1rem;
 	position: relative;
 	width: 100%;
-	background:#000;
+	background:#2c3e50;
 	height: 50px;
 }
 
@@ -22,8 +22,8 @@ nav a{
 
 nav ul{
 	padding-top:1rem;
-	padding-left: 10em;
-	font-family: sans-serif;
+	padding-left: 5.5em;
+	font-family: 'Source Sans Pro', sans-serif;
 	list-style-type: none;
 }
 
@@ -35,3 +35,85 @@ nav li{
 
 
 /* NAVIGATION ----------------------------------------------> */
+
+
+section {
+	padding: 20rem 0;
+}
+
+/* HOME ----------------------------------------------> */
+.home-section{
+margin-top: -1rem;
+background:#e74c3c;
+}
+
+.home-section h1{
+	position: absolute;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 3rem;
+	color: #fff;
+	text-align: center;
+	margin-left: 27%;
+	padding: 1rem;
+	width:40%;
+	top: 10rem;
+
+}
+
+.home-section h2 {
+	position: absolute;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1rem;
+	color: #fff;
+	text-align: center;
+	background-color: #2c3e50;
+	margin-left: 29%;
+	padding: 1rem;
+	width:35%;
+	top: 26rem;
+}
+
+.home-section h2:nth-child(2) {
+	position: absolute;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1rem;
+	color: #fff;
+	text-align: center;
+	background-color: #2c3e50;
+	margin-left: 28%;
+	padding: 1rem;
+	width:35%;
+	top: 18rem;
+}
+
+.home-section h2:nth-child(3) {
+	position: absolute;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1rem;
+	color: #fff;
+	text-align: center;
+	background-color: #2c3e50;
+	margin-left: 32%;
+	padding: 1rem;
+	width:35%;
+	top: 22rem;
+}
+
+
+
+/* HOME ----------------------------------------------> */
+
+/* WORK ----------------------------------------------> */
+
+.work-section{
+	margin-top: -1rem;
+background:#ecf0f1;
+}
+/* WORK ----------------------------------------------> */
+
+/* CONTACT ----------------------------------------------> */
+.contact-section{
+	margin-top: -1rem;
+	background:#e74c3c;
+}
+/* CONTACT ----------------------------------------------> */
