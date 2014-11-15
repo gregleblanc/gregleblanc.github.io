@@ -33,6 +33,12 @@ nav li{
  	display: inline;
 }
 
+nav li a:hover,
+nav li a:focus,
+nav li a:active {
+
+}
+
 
 /* NAVIGATION ----------------------------------------------> */
 
