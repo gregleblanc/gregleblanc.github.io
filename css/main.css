@@ -153,6 +153,7 @@ height: 20rem;
 	text-align: center;
 	padding: 1rem;
 	margin-bottom: 4rem;
+	margin-left:1em;
 }
 
 
@@ -198,5 +199,132 @@ transition: opacity 200ms linear;
 .contact-section{
 	margin-top: -1rem;
 	background:#e74c3c;
+	text-align: center;
 }
+
+.contact-section h3{
+	position: relative;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 3rem;
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
+	margin-bottom:-2rem;
+	margin-top:-13rem;
+}
+
+.contact-section p{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.5rem;
+	color: #fff;
+	width: 50%;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+
+.contact-section ul{
+		margin-left:-35px;
+}
+
+.contact-section li{
+
+	list-style-type: none;
+	display: inline;
+}
+
+.contact-section img{
+	width: 60px;
+}
+
+.contact-section img:hover{
+	opacity: .5;
+	transition: opacity 200ms linear;
+}
+
+
 /* CONTACT ----------------------------------------------> */
+
+
+/* MEDIA QUEREIES ----------------------------------------------> */
+
+@media (max-width: 990px) {
+
+
+/* Work Section MQ ----------------------------------------------> */
+.work-section{
+	margin-top: -1rem;
+background:#ecf0f1;
+padding: rem;
+padding-right:5rem;
+}
+
+
+.work-section ul{
+	position: relative;
+	list-style-type: none;
+	top:1rem;
+	padding-bottom:5rem;
+}
+
+.work-section li{
+	display: inline;
+	padding: 0px;
+}
+
+.work-section img{
+	overflow: hidden;
+	width: 49.5%;
+	background-color: #000;
+	opacity: .5;
+}
+
+
+.work-section img:hover,
+.work-section img:focus,
+.work-section img:active {
+	opacity: 1;
+transition: opacity 200ms linear;
+	}
+
+/* Work Section MQ ----------------------------------------------> */
+
+}
+
+@media (max-width: 580px) {
+	/* Work Section MQ ----------------------------------------------> */
+.work-section{
+margin-top: -1rem;
+background:#ecf0f1;
+}
+
+.work-section ul{
+	margin-left:-82px;
+	margin-right:-75px;
+	position: relative;
+	list-style-type: none;
+	top:1rem;
+
+}
+
+.work-section li{
+	display: inline;
+}
+
+.work-section img{
+	overflow: hidden;
+	width: 100%;
+	background-color: #000;
+	opacity: .5;
+}
+
+
+.work-section img:hover,
+.work-section img:focus,
+.work-section img:active {
+	opacity: 1;
+transition: opacity 200ms linear;
+	}
+
+/* Work Section MQ ----------------------------------------------> */
+
+/* MEDIA QUEREIES ----------------------------------------------> */
