@@ -5,15 +5,16 @@
   <title>Greg Leblanc - Home</title>
   <link href="css/main.css" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+  <link href="css/lightbox.css" rel="stylesheet" />
 </head>
 <body>
 
 
 	<nav class="widescreen">
 		<ul>
-		  <li class="underline"><a href="default.asp">Home</a></li>
-		  <li class="underline"><a href="news.asp">Work</a></li>
-		  <li class="underline"><a href="contact.asp">Contact</a></li>
+		  <li class="underline"><a href="#home">Home</a></li>
+		  <li class="underline"><a href="#work">Work</a></li>
+		  <li class="underline"><a href="#contact">Contact</a></li>
 		</ul>
 		<a href="#dropdown_nav"><img src="img/burg.svg" alt=""></a>
 	</nav>
@@ -24,10 +25,10 @@
 		  <li> <a href="news.asp">WORK</a></li>
 		  <li> <a href="contact.asp">CONTACT</a></li>
 		</ul>
-		<a href="#dropdown_nav"><img src="img/x.svg" alt=""></a>
+		<a href="#"><img src="img/x.svg" alt=""></a>
 	</nav>
 
-<section class="home-section">
+<section class="home-section" id="home">
 
 	<h1>Greg Leblanc</h1>
 	<h2>I'm an Ottawa Graphic Desiger</h2>
@@ -36,24 +37,23 @@
 	<!--<img class="home" src="img/sun.svg" alt=""> -->
 </section>
 
-<section class="work-section">
+<section class="work-section" id="work">
 	<!--<img class="work" src="img/dipper.svg" alt=""> -->
 
 		<h3>Work</h3>
 		<ul>
-		  <li><a href="default.asp"><img src="img/placeholder.jpg" alt=""></a></li>
-		  <li><a href="news.asp"><img src="img/placeholder.jpg" alt=""></a></li>
-		  <li><a href="contact.asp"><img src="img/placeholder.jpg" alt=""></a></li>
-		  <li><a href="default.asp"><img src="img/placeholder.jpg" alt=""></a></li>
-		  <li><a href="news.asp"><img src="img/placeholder.jpg" alt=""></a></li>
-		  <li><a href="contact.asp"><img src="img/placeholder.jpg" alt=""></a></li>
-		  <li><a href="default.asp"><img src="img/placeholder.jpg" alt=""></a></li>
-		  <li><a href="news.asp"><img src="img/placeholder.jpg" alt=""></a></li>
-		  <li><a href="news.asp"><img src="img/placeholder.jpg" alt=""></a></li>
+		  <li><a href="img/placeholder.jpg" data-lightbox="video1"> <img src="img/placeholder.jpg" alt=""></a></li>
+		  <li><a href="news.asp"><img src="img/placeholder.jpg" alt=""><<li><a href="img/placeholder.jpg" data-lightbox="video1"> <img src="img/placeholder.jpg" alt=""></a></li>
+		  <li><a href="img/placeholder.jpg" data-lightbox="video1"> <img src="img/placeholder.jpg" alt=""></a></li>
+		  <li><a href="img/placeholder.jpg" data-lightbox="video1"> <img src="img/placeholder.jpg" alt=""></a></li>
+		  <li><a href="img/placeholder.jpg" data-lightbox="video1"> <img src="img/placeholder.jpg" alt=""></a></li>
+		  <li><a href="img/placeholder.jpg" data-lightbox="video1"> <img src="img/placeholder.jpg" alt=""></a></li>
+			<li><a href="img/placeholder.jpg" data-lightbox="video1"> <img src="img/placeholder.jpg" alt=""></a></li>
+			<li><a href="img/placeholder.jpg" data-lightbox="video1"> <img src="img/placeholder.jpg" alt=""></a></li>
 		</ul>
 </section>
 
-<section class="contact-section">
+<section class="contact-section" id="contact">
 	<h3>Contact</h3>
 	<p>I would love to hear from you so drop me a line! You can contact me at the following sources
 	for any questions or just to chat! Talk to you soon.</p>
@@ -67,7 +67,8 @@
 </section>
 
 
-
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/lightbox.min.js"></script>
 
 </body>
 </html>
