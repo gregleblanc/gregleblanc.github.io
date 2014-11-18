@@ -465,3 +465,35 @@ transition: opacity 200ms linear;
 }
 
 /* MEDIA QUEREIES ----------------------------------------------> */
+
+
+/* Video Modal
+==========================*/
+
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background: rgba(#000,.7);
+}
+
+.flexy {
+  width: 50%;
+  margin: 5% auto;
+  position: relative;
+  height: 0;
+  padding-bottom: 33%;
+  min-height: 9em;
+  iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 22px rgba(#000,.9);
+  }
+}
+
