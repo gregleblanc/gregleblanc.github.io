@@ -1,3 +1,12 @@
+@charset "UTF-8";
+
+@-moz-viewport { width: device-width; scale: 1;}
+@-ms-viewport { width: device-width; scale: 1;}
+@-webkit-viewport { width: device-width; scale: 1;}
+@-o-viewport { width: device-width; scale: 1;}
+@viewport { width: device-width; scale: 1;}
+
+
 html,body{
 	margin: 0;
 	padding: 0;
@@ -496,4 +505,21 @@ transition: opacity 200ms linear;
     box-shadow: 0 0 22px rgba(#000,.9);
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
