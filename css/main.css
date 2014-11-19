@@ -11,6 +11,7 @@ html,body{
 	margin: 0;
 	padding: 0;
 	background:#2c3e50;
+font-family: 'Roboto', sans-serif;
 }
 
 /* NAVIGATION ---------------------------------------------->*/
@@ -39,18 +40,18 @@ nav ul {
 	position: absolute;
 	font-size: 1.2rem;
 	z-index: 100;
-	font-family: 'Source Sans Pro', sans-serif;
 
 }
 
 nav li {
-	font-family: 'Source Sans Pro', sans-serif;
+
 	font-weight: 400;
 	display: inline;
 
 }
 
-li a{
+nav li a{
+	font-family: 'Roboto', sans-serif;
 	text-decoration: none;
 	color: #000;
 }
@@ -148,7 +149,7 @@ li a{
 	margin-left:3em;
 	margin-top:1.5rem;
 	padding-top:1rem;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	list-style-type: none;
 }
 
@@ -204,15 +205,14 @@ section {
 /* HOME ----------------------------------------------> */
 .home-section{
 margin-top: -1rem;
-background:#e74c3c;
 text-align: center;
-
+background:#e74c3c url('../img/bg.svg') repeat;
 padding-top:9rem;
 }
 
 .home-section h1{
 	position: relative;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 3rem;
 	color: #fff;
 	width:100%;
@@ -233,7 +233,7 @@ padding-top:9rem;
 
 .home-section-404 h1{
 
-	font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Roboto', sans-serif;
 	font-size: 10rem;
 	color: #fff;
 
@@ -248,7 +248,7 @@ padding-top:9rem;
 
 .work-section h3{
 	position: relative;
-	font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Roboto', sans-serif;
 	font-size: 3rem;
 	color: #2c3e50;
 	text-align: center;
@@ -305,7 +305,7 @@ transition: opacity 200ms linear;
 
 .contact-section h3{
 	position: relative;
-	font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Roboto', sans-serif;
 	font-size: 3rem;
 	color: #fff;
 	text-align: center;
@@ -315,7 +315,7 @@ transition: opacity 200ms linear;
 }
 
 .contact-section p{
-	font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Roboto', sans-serif;
 	font-size: 1.5rem;
 	color: #fff;
 	width: 50%;
