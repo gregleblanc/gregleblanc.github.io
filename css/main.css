@@ -216,48 +216,20 @@ padding-top:9rem;
 	font-size: 3rem;
 	color: #fff;
 	width:100%;
-
 }
 
-.home-section h2{
 
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 1rem;
-	color: #fff;
-	background:#2c3e50;
-	padding-top:1rem;
-	padding-bottom:1rem;
-	margin-left:30%;
-	margin-right:27%;
-
+.bilboard{
+	background: rgb(236, 240, 241);
+	width: 740px;
+	height: 425px;
+	margin: 0 auto;
 }
 
-.home-section h2:nth-child(2) {
-
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 1rem;
-	color: #fff;
-	background:#2c3e50;
-	margin-left:32%;
-	margin-right:25%;
-
+.video{
+	padding:10px;
 }
 
-.home-section h2:nth-child(3) {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 1rem;
-	color: #fff;
-	background:#2c3e50;
-	margin-left:34%;
-	margin-right:31%;
-
-}
-
-.home-section-404{
-margin-top: -1rem;
-background:#e74c3c;
-height: 20rem;
-}
 
 .home-section-404 h1{
 
@@ -273,6 +245,7 @@ height: 20rem;
 /* HOME ----------------------------------------------> */
 
 /* WORK ----------------------------------------------> */
+
 .work-section h3{
 	position: relative;
 	font-family: 'Source Sans Pro', sans-serif;
@@ -472,6 +445,26 @@ transition: opacity 200ms linear;
 
 
 }
+
+
+
+@media (max-width: 755px) {
+
+	.bilboard{
+background:none;
+width: 100%;
+height:50%;
+	}
+
+.video object{
+	width: 100%;
+}
+
+}
+
+
+
+
 
 @media (max-width: 580px) {
 	/* HOME Section MQ ----------------------------------------------> */
