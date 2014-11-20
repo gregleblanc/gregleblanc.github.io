@@ -46,7 +46,7 @@
 	#lbImage.blue, #lbIframe.blue { border: 1px solid #5F89D8; }
 	#lbImage.gold, #lbIframe.gold { border: 1px solid #B0B000; }
 	#lbImage.orange, #lbIframe.orange { border: 1px solid #D15211; }
-#lbImageContainer, #lbIframeContainer { padding: 10px; z-index: 12; }
+#lbImageContainer, #lbIframeContainer { padding: 10px; width:90%; z-index: 12; }
 #lbLoading {
 	height: 100%; width: 100%; margin-top: -10px;
 	background: url('images/loading_white.gif') center no-repeat;
