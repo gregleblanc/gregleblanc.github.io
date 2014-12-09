@@ -20,7 +20,7 @@ font-family: 'Roboto', sans-serif;
 /*mobile ------------->*/
 
 header{
-	background:#2c3e50;
+	background:#34495E;
 
 }
 
@@ -29,7 +29,7 @@ header{
 nav {
 	padding-right: 0%;
 	padding-left: 0%;
-	background:#2c3e50;
+	background:#34495E;
 	z-index:100;
 text-align: left;
 
@@ -139,7 +139,7 @@ nav li a{
 	top:-1rem;
 	position: relative;
 	width: 90%;
-	background:#2c3e50;
+	background:#34495E;
 	height: 85px;
 }
 
@@ -210,7 +210,8 @@ section {
 .home-section{
 margin-top: -1rem;
 text-align: center;
-background:#bdc3c7 /* url('../img/bg.svg')*/ repeat;
+background:#56708E  url('../img/bg.svg') no-repeat;
+
 padding-top:9rem;
 }
 
@@ -303,7 +304,7 @@ transition: opacity 200ms linear;
 /* CONTACT ----------------------------------------------> */
 .contact-section{
 	margin-top: -1rem;
-	background:#bdc3c7;
+	background:#67809F ;
 	text-align: center;
 }
 
