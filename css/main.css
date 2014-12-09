@@ -24,6 +24,8 @@ header{
 
 }
 
+
+
 nav {
 	padding-right: 0%;
 	padding-left: 0%;
@@ -183,9 +185,10 @@ nav li a{
 }
 
 .widescreen img{
-	width: 25px;
+	width: 35px;
+	height: 35px;
 	position: absolute;
-	top:2.5rem;
+	top:2rem;
 	left:1.5em;
 	z-index: 100;
 }
@@ -207,7 +210,7 @@ section {
 .home-section{
 margin-top: -1rem;
 text-align: center;
-background:#e74c3c url('../img/bg.svg') repeat;
+background:#bdc3c7 /* url('../img/bg.svg')*/ repeat;
 padding-top:9rem;
 }
 
@@ -300,7 +303,7 @@ transition: opacity 200ms linear;
 /* CONTACT ----------------------------------------------> */
 .contact-section{
 	margin-top: -1rem;
-	background:#e74c3c;
+	background:#bdc3c7;
 	text-align: center;
 }
 
@@ -337,6 +340,7 @@ font-family: 'Roboto', sans-serif;
 
 .contact-section img{
 	width: 60px;
+	height: 60px;
 }
 
 .contact-section img:hover{
