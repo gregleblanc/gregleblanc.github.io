@@ -528,6 +528,10 @@ margin-top: -1rem;
 background:#ecf0f1;
 }
 
+.work-section h3{
+	margin: 0 auto;
+}
+
 .work-section ul{
 	margin-left:-82px;
 	margin-right:-75px;
