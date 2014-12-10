@@ -211,10 +211,11 @@ section {
 margin-top: -1rem;
 text-align: center;
 background:#56708E  url('../img/bg.svg') no-repeat;
-background-size: 2000px 1920px;
-background-position: -100px -100px;
+background-size: 1700px 1900px;
 padding-top:9rem;
 }
+
+
 
 .home-section h1{
 	position: relative;
@@ -282,12 +283,14 @@ padding-right:5rem;
 .work-section li{
 	display: inline;
 	padding: -3px;
+
 }
+
 
 .work-section img{
 	overflow: hidden;
 	width: 33%;
-	background-color: #000;
+
 	opacity: .5;
 }
 
@@ -347,7 +350,8 @@ font-family: 'Roboto', sans-serif;
 
 .contact-section img:hover{
 	opacity: .5;
-	transition: opacity 200ms linear;
+	 -webkit-filter: blur(2px);
+
 }
 
 
