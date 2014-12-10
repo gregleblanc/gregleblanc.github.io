@@ -211,7 +211,8 @@ section {
 margin-top: -1rem;
 text-align: center;
 background:#56708E  url('../img/bg.svg') no-repeat;
-background-size: 1920px 1920px;
+background-size: 2000px 1920px;
+background-position: -100px -100px;
 padding-top:9rem;
 }
 
