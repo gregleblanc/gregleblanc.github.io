@@ -226,6 +226,26 @@ padding-top:9rem;
 }
 
 
+.home-section h2{
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+	font-size: 3rem;
+	color: #fff;
+	width:100%;
+}
+
+.home-section h2 a{
+	text-decoration: none;
+	list-style-type: none;
+}
+
+
+.home-section h2:hover {
+color:#ccc;
+transition: 200ms color linear;
+}
+
+
 .bilboard{
 	background: rgb(236, 240, 241);
 	width: 740px;
